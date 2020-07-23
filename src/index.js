@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { LandingPage } from './landing.page'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 
 const App = () => {
   return <div>
-    <LandingPage /> 
+    <h1>Protected React Router</h1>
+    <Route exact path="/" component={LandingPage} /> 
   </div>
 }
 
