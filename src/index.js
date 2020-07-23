@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { LandingPage } from './landing.page'
 
 const App = () => {
-  return <div></div>
+  return <div>
+    <LandingPage /> 
+  </div>
 }
 
 ReactDOM.render(
